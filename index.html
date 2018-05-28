@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#"><img src="img/navbar-logo.png" alt=""></a>
+				</div>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li class="active" data-custom-ref="checkboxToggle"><a href="#">Ejercicio 1<span class="sr-only">(current)</span></a></li>
+						<li data-custom-ref="ajaxDropdown"><a href="#">Ejercicio 2</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="main-wrapper">
+						<div class="well">
+							Para poder acceder a los dos ejercicios, se debera crear en primera instancia, una función que habilite el menu superior. Dicha función debe cargar vía AJAX los contenidos indicados en el "data-custom-ref" de cada link, dentro del div con clase "main-wrapper". Así mismo, deberá agregar la clase "active" al link que se esté visualizando.
+							<br><br>
+							Las instrucciones de cada ejercicio se encuentran en su respectiva vista.
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="js/jquery-3.3.1.min.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>

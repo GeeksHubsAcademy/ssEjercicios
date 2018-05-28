@@ -1,0 +1,64 @@
+{
+  "customers" : {
+    "Hagen Isaac Salinas Corona" : {
+      "address" : "Campo Acalapa 87",
+      "lastname" : "Salinas Corona",
+      "name" : "Hagen Isaac",
+      "phone" : "N/A"
+    },
+    "Israel Salinas Martínez" : {
+      "address" : "Campo Acalapa 87",
+      "lastName" : "Salinas Martínez",
+      "name" : "Israel",
+      "phone" : 5543788096
+    },
+    "Shalem Solís Lagunas" : {
+      "address" : "La Joya 8",
+      "lastName" : "Solís Lagunas",
+      "name" : "Shalem",
+      "phone" : 5531587478
+    },
+    "Lia Santos Ventura" : {
+      "address" : "Av. Montevideo 58",
+      "lastName" : "Santos Ventura",
+      "name" : "Lia",
+      "phone" : 5589456152
+    },
+    "Janet Orta Martinez" : {
+      "address" : "Trebol 15",
+      "lastName" : "Orta Martínez",
+      "name" : "Janet",
+      "phone" : 5545961526
+    },
+    "Francisco López López" : {
+      "address" : "Av. Siempreviva 69",
+      "lastName" : "López López",
+      "name" : "Francisco",
+      "phone" : 5584562129
+    },
+    "Eleonor Peralta Rivera" : {
+      "address" : "Alhelies 32",
+      "lastName" : "Peralta Rivera",
+      "name" : "Eleonor",
+      "phone" : 5523015489
+    },
+    "Cristina Paredes Pacheco" : {
+      "address" : "Tulipanes 615",
+      "lastName" : "Paredes Pacheco",
+      "name" : "Cristina",
+      "phone" : 5502568415
+    },
+    "David Torres Rodríguez" : {
+      "address" : "Tlaloc 21",
+      "lastName" : "Torres Rodríguez",
+      "name" : "David",
+      "phone" : 5584523015
+    },
+    "Ian Baez García" : {
+      "address" : "Culiacán 205",
+      "lastName" : "Baez García",
+      "name" : "Ian",
+      "phone" : 5584952031
+    }
+  }
+}

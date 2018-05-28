@@ -1,0 +1,30 @@
+<div class="well">
+	En éste ejercicio, se deberá generar una tabla dinámica basada en datos adquiridos vía AJAX de una base de datos de firebase.
+	El script para inicializar la base de datos es el siguiente:
+	<br><br>
+	<kbd>
+		src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"
+		// Initialize Firebase
+		var config = {
+		apiKey: "AIzaSyAO-MtLjicwGW2uar6Y-wlbv3XOZyN0OC4",
+		authDomain: "fir-sample-dcd2c.firebaseapp.com",
+		databaseURL: "https://fir-sample-dcd2c.firebaseio.com",
+		projectId: "fir-sample-dcd2c",
+		storageBucket: "fir-sample-dcd2c.appspot.com",
+		messagingSenderId: "794168900181"
+		};
+		firebase.initializeApp(config);
+	</kbd>
+	<br><br>
+	y la referencia será la colección /customers
+	<br><br>
+	La tabla incluye una columna con Checkbox, los cuales deberán cumplir los siguientes requerimientos:
+	<ul>
+		<li>Al dar click en el checkbox del header, deberá marcar o desmarcar todos los demás checkbox dentro de la tabla, independientemente de si existe o no alguno marcado.</li>
+		<li>Al dar click en el botón "Mostrar seleccionados" se deberá generar un array con los clientes seleccionados, y crear una tabla adicional que muestre dichos clientes</li>
+		<li>La tabla adicional deberá contar con un botón de "Eliminar", el cual borre la fila seleccionada y elimine dicho usuario del array creado en el paso anterior.</li>
+	</ul>
+	*Se incluye ejemplo de tabla abajo.
+</div>
+<br>
+<img class="table-sample" src="img/table-sample.png" alt="">
